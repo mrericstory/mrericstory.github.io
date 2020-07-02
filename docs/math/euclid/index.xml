@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Euclid on Mr. Eric</title>
+    <link>http://example.org/docs/math/euclid/</link>
+    <description>Recent content in Euclid on Mr. Eric</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/docs/math/euclid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BOOK. I</title>
+      <link>http://example.org/docs/math/euclid/booki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/math/euclid/booki/</guid>
+      <description>PROP. XX. &amp;ndash; THEOREM. The sum of any two sides (BA, AC) of a triangle (ABC) is greater than the third.        PROP. XIX. &amp;ndash; THEOREM. If one angle (B) of a triangle (ABC) be greater than another angle (C), the side (AC) which it opposite to the greater angle is greater than the side (AB) which is opposite to the less.</description>
+    </item>
+    
+  </channel>
+</rss>
