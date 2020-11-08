@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Mr. Eric</title>
+    <link>http://mrericstory.github.io/posts/</link>
+    <description>Recent content in Posts on Mr. Eric</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>english</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
+    <lastBuildDate>Sun, 08 Nov 2020 22:36:54 +0800</lastBuildDate>
+    
+	<atom:link href="http://mrericstory.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Euclid Book I PROP. VI. – THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop6/</link>
+      <pubDate>Sun, 08 Nov 2020 22:36:54 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop6/</guid>
+      <description>&lt;p&gt;If two angles (B, C) of a triangle be equal, the sides (AC, AB) opposite to them are also equal.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. V. – THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop5/</link>
+      <pubDate>Sun, 08 Nov 2020 22:31:38 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop5/</guid>
+      <description>&lt;p&gt;The angles (ABC, ACB) at the base (BC) of an isosceles triangle are equal to one another&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. IV. – THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop4/</link>
+      <pubDate>Sun, 08 Nov 2020 22:20:14 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop4/</guid>
+      <description>&lt;p&gt;If two triangle (BAC, EDF) have two sides (BA, AC) of one equal respectively to two sides&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. III. – PROBLEM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop3/</link>
+      <pubDate>Sun, 08 Nov 2020 20:20:42 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop3/</guid>
+      <description>&lt;p&gt;From the greater (AB) of two given right lines to cut off a part equal to (C) the less.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. II. – PROBLEM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop2/</link>
+      <pubDate>Sun, 08 Nov 2020 17:23:02 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop2/</guid>
+      <description>&lt;p&gt;From a given point (A) to draw a right line equal to a given finite right line (BC).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. I. – PROBLEM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop1/</link>
+      <pubDate>Sun, 08 Nov 2020 15:49:23 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop1/</guid>
+      <description>&lt;p&gt;On a given finite right line (AB) to construct an equilateral triangl.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
