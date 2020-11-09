@@ -67,6 +67,8 @@
     
 
     
+    background-image: url(/img/backGround.jpg);
+    
   }
   
 
@@ -99,10 +101,10 @@
 <nav class="ui secondary menu dream-menu">
 
   <div class="item">
-    <i class="large link bullseye icon dream-flip-toggle" title=""></i>
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
   </div>
   <div class="item">
-    <i class="large link home icon" title="" onclick="window.location.href = 'http:\/\/mrericstory.github.io\/'"></i>
+    <i class="large link home icon" title="Home" onclick="window.location.href = 'http:\/\/mrericstory.github.io\/'"></i>
   </div>
   <div class="item">
     <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
@@ -122,6 +124,10 @@
 <div class="ui centered relaxed grid dream-grid">
   <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single" id="dream-save-post-as-img">
     
+    <section class="ui top attached segment cover">
+      <div class="cover-img" style="background-image: url(/img/book1prop9.jpg);"></div>
+    </section>
+    
     <section class="ui attached segment">
       <header>
         <h1 class="ui large header">
@@ -136,9 +142,9 @@
                 Saturday, Nov 7, 2020
               
 
-            | 1
+            | 1 minute read
 
-            | 
+            | Update at
               
                 Saturday, Nov 7, 2020
               
@@ -152,13 +158,13 @@
 
     <footer class="ui attached segment dream-tags" data-html2canvas-ignore>
       
-          <a class="ui label"></a>
+          <a class="ui label">No Tags</a>
       
       <div
         class="ui label"
         style="float: right; cursor: pointer;"
         onclick="savePostAsImg()">
-        <i class="save icon"></i>
+        <i class="save icon"></i>Save as image
       </div>
     </footer>
 
@@ -217,14 +223,14 @@
     <div class="ui horizontal list">
       
       <a class="item" href="/posts">
-        <i class="archive icon" title=""></i>
+        <i class="archive icon" title="Archives"></i>
       </a>
       
       <a class="item" href="/tags">
-        <i class="tags icon" title=""></i>
+        <i class="tags icon" title="All Tags"></i>
       </a>
       <a class="item" href="/categories">
-        <i class="th list icon" title=""></i>
+        <i class="th list icon" title="All Categories"></i>
       </a>
     </div>
   </section>
@@ -409,7 +415,7 @@
   <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
     <article>
       <div class="ui top attached segment">
-        <h3 class="ui header"></h3>
+        <h3 class="ui header">Social Links</h3>
       </div>
       <div class="ui bottom attached segment">
         <nav class="ui secondary menu dream-menu dream-socials">
@@ -572,7 +578,7 @@
       <div class="ui inverted segment" id="dream-search">
   <div class="ui search">
     <div class="ui transparent input">
-      <input class="prompt" type="text" placeholder="" />
+      <input class="prompt" type="text" placeholder="Search" />
     </div>
     <div class="results"></div>
   </div>
