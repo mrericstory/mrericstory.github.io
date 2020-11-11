@@ -7,10 +7,100 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>english</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
-    <lastBuildDate>Mon, 22 Jun 2020 10:50:19 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2020 10:50:19 +0800</lastBuildDate>
     
 	<atom:link href="http://mrericstory.github.io/categories/geometry/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Euclid Book I PROP. XL. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop40/</link>
+      <pubDate>Thu, 02 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop40/</guid>
+      <description>&lt;p&gt;Equal triangles (ABC, DEF) on equal bases (BC, EF) which form parts of the same right line, and on the same side of the line, are between the same parallels.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXXIX. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop39/</link>
+      <pubDate>Wed, 01 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop39/</guid>
+      <description>&lt;p&gt;Equal triangles (BAC, BDC) on the same base (BC) and on the same side of it are between the same parallels.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXXVIII. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop38/</link>
+      <pubDate>Tue, 30 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop38/</guid>
+      <description>&lt;p&gt;Two triangles on the equal bases and between the same parallels are equal.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXXVII. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop37/</link>
+      <pubDate>Mon, 29 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop37/</guid>
+      <description>&lt;p&gt;Triangles (ABC, DBC) on the same base (BC) and between the same parallels (AD, BC) are equal.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXXVI. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop36/</link>
+      <pubDate>Sun, 28 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop36/</guid>
+      <description>&lt;p&gt;Parallelograms (BD, FH) on equal bases (BC, FG) and between then same parallels are equal.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXXV. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop35/</link>
+      <pubDate>Sat, 27 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop35/</guid>
+      <description>&lt;p&gt;Parallelograms on the same base (BC) and between the same parallels are equal.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXXIV. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop34/</link>
+      <pubDate>Fri, 26 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop34/</guid>
+      <description>&lt;p&gt;The opposite sides (AB, CD,; AC, BD) and the opposite angles (A, D; B, C) of a parallelogram are equal to one another, and either diagonal bisects the parallelogram.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXXIII. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop33/</link>
+      <pubDate>Thu, 25 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop33/</guid>
+      <description>&lt;p&gt;The right lines (AC, BD) which join the adjacent extremities of two equal and parallel right lines (AB, CD) are equal and parallel.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXXII. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop32/</link>
+      <pubDate>Wed, 24 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop32/</guid>
+      <description>&lt;p&gt;If any side (AB) of a triangle (ABC) be produced (to D), the external angle (CBD) is equal to the sum of the two internal non-adjacent angles (A, C), and the sum of the three internal angles is equal to two right angles.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXXI. -- PROBLEM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop31/</link>
+      <pubDate>Tue, 23 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop31/</guid>
+      <description>&lt;p&gt;Through a given point (C) to draw a right line parallel to a given right line.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Euclid Book I PROP. XXX. -- THEOREM.</title>
