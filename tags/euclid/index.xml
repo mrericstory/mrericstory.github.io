@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>english</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
-    <lastBuildDate>Sat, 20 Jun 2020 10:50:19 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2020 10:50:19 +0800</lastBuildDate>
     
 	<atom:link href="http://mrericstory.github.io/tags/euclid/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Euclid Book I PROP. XXX. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop30/</link>
+      <pubDate>Mon, 22 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop30/</guid>
+      <description>&lt;p&gt;If two right lines (AB, CD) be parallel to the same right line (EF), they are parallel to one another.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXIX. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop29/</link>
+      <pubDate>Sun, 21 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop29/</guid>
+      <description>&lt;p&gt;If a right line (EF) intersect two parallel right lines (AB, CD), it makes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;the alternate angles (AGH, GHD) equal to one another;&lt;/li&gt;
+&lt;li&gt;the exterior angle (EGB) equal to the corresponding interior angle (GHD);&lt;/li&gt;
+&lt;li&gt;the two interior angles (BGH, GHD) on the same side equal to two right angles.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
     
     <item>
       <title>Euclid Book I PROP. XXVIII. -- THEOREM.</title>
