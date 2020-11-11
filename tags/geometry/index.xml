@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>english</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
-    <lastBuildDate>Sun, 14 Jun 2020 10:50:19 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2020 10:50:19 +0800</lastBuildDate>
     
 	<atom:link href="http://mrericstory.github.io/tags/geometry/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Euclid Book I PROP. XXV. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop25/</link>
+      <pubDate>Wed, 17 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop25/</guid>
+      <description>&lt;p&gt;If two triangles (ABC, DEF) have two sides (AB, AC) of one respectively equal to two sides (DE, DF) of the other, but the base (BC) of one greater than the base (EF) of the other, the angle (A) contained by the sides of that which has the greater base is greater them the angle (D) contained by the sides of the other.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXIV. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop24/</link>
+      <pubDate>Tue, 16 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop24/</guid>
+      <description>&lt;p&gt;If two triangles (ABC, DEF) have two sides (AB, AC) of one respectively equal to two sides (DE, DF) of the other, but the contained angle (BAC) of one greater than the contained angle (EDF) of the other, the base of that which has the greater angle is greater than the base of the other.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book I PROP. XXIII. -- PROBLEM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiprop23/</link>
+      <pubDate>Mon, 15 Jun 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiprop23/</guid>
+      <description>&lt;p&gt;At a given point (A) in a given right line (AB) to make an angle equal to a given rectilineal angle (DEF)&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Euclid Book I PROP. XXII. -- PROBLEM.</title>
