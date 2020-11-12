@@ -22,6 +22,87 @@
     </item>
     
     <item>
+      <title>Euclid Book II PROP. IX. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiiprop9/</link>
+      <pubDate>Mon, 20 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiiprop9/</guid>
+      <description>&lt;p&gt;If a line (AB) be bisected (at C) and divided into two unequal parts (at D), the sum of the squares on the unequal parts (AD, DB) is double the sum of the squares on half the line (AC), and on the segment (CD) between the points of section.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book II PROP. VIII. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiiprop8/</link>
+      <pubDate>Sun, 19 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiiprop8/</guid>
+      <description>&lt;p&gt;If a line (AB) be divided into two parts (at C), the square on the sum the whole line (AB) and either segment (BC) is equal to four times the rectangle contained by the whole line (AB) and that segment, together with the square on the other segment (AC).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book II PROP. VII. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiiprop7/</link>
+      <pubDate>Sat, 18 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiiprop7/</guid>
+      <description>&lt;p&gt;If a right line (AB) be divided into any two parts (at C), the sum of the squares on the whole line (AB) and either segment (CB) is equal to twice the rectangle (2AB.CB) contained by the whole line and that segment, together with the square on the other segment.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book II PROP. VI. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiiprop6/</link>
+      <pubDate>Fri, 17 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiiprop6/</guid>
+      <description>&lt;p&gt;If a line (AB) be bisected (at C), and divided externally in any point (D), the rectangle (AD.BD) contained by the segments made by the external point, together with the square on half the line, is equal to the square on the segment between the middle point and the point of external division.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book II PROP. V. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiiprop5/</link>
+      <pubDate>Wed, 15 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiiprop5/</guid>
+      <description>&lt;p&gt;If a line (AB) be divided into two equal parts (at C), and also into two unequal parts (at D), the rectangle (AD.DB) contained by the unequal parts, together with the square on the part (CD) between the points of section, is equal to the square on half the line.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book II PROP. IV. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiiprop4/</link>
+      <pubDate>Tue, 14 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiiprop4/</guid>
+      <description>&lt;p&gt;If a line (AB) be divided into any two parts (at C), the square on the whole line is equal to the sum of the squares on the parts (AC, CB), together with twice their rectangle.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book II PROP. III. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiiprop3/</link>
+      <pubDate>Mon, 13 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiiprop3/</guid>
+      <description>&lt;p&gt;If a line (AB) be divided into two segments (at C), the rectangle contained by the whole line and either segment (CB) is equal to the square on that segment together with the rectangle contained by the segments.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book II PROP. II. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiiprop2/</link>
+      <pubDate>Sun, 12 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiiprop2/</guid>
+      <description>&lt;p&gt;If a line (AB) be divided into any two parts (at C), the square on the whole line is equal to the sum of the rectangles contained by the whole and each of the segments (AC, CB).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Euclid Book II PROP. I. -- THEOREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiiprop1/</link>
+      <pubDate>Sat, 11 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiiprop1/</guid>
+      <description>&lt;p&gt;If there be two lines (A, BC), one of which is divided into any number of parts (BD, DE, EC), the rectangle contained by the two lines (A, BC), is equal to the sum of the rectangles contained by the undivided line (A) and the several parts of the divided line.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Euclid Book I PROP. XLVIII. -- THEOREM.</title>
       <link>http://mrericstory.github.io/posts/euclidbookiprop48/</link>
       <pubDate>Fri, 10 Jul 2020 10:50:19 +0800</pubDate>
