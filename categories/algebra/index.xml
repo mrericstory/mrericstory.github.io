@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algebra on Mr. Eric</title>
+    <link>http://mrericstory.github.io/categories/algebra/</link>
+    <description>Recent content in Algebra on Mr. Eric</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>english</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
+    <lastBuildDate>Sat, 14 Nov 2020 14:51:51 +0800</lastBuildDate>
+    
+	<atom:link href="http://mrericstory.github.io/categories/algebra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Free Question No.1</title>
+      <link>http://mrericstory.github.io/posts/algebratry/</link>
+      <pubDate>Sat, 14 Nov 2020 14:51:51 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/algebratry/</guid>
+      <description>&lt;p&gt;a. Assume that the length and width of a rectangle can be only whole numbers. How many rectangles of different dimensions have a perime- ter of 12? 14? 16? 18? 24? (Orientation of the rectangle does not matter; that is, a 2x3 is the same rectangle as a 3x2.)&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
