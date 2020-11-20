@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>english</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
-    <lastBuildDate>Sun, 26 Jul 2020 10:50:19 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2020 10:50:19 +0800</lastBuildDate>
     
 	<atom:link href="http://mrericstory.github.io/tags/euclid/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Euclid Book II PROP. XII. -- THEROREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiiprop12/</link>
+      <pubDate>Wed, 29 Jul 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiiprop12/</guid>
+      <description>&lt;p&gt;In an obtuse-angled triangle (ABC), the square on the side (AB) subtending the obtuse angle exceeds the sum of squares on the sides (BC, CA) containing the obtuse angle, by twice the rectangle contained by either of them (BC), and its continuation (CD) to meet a perpendicular (AD) on it from the opposite angle.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Euclid Book II PROP. XI. -- PROBLEM.</title>
