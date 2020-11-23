@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>english</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
-    <lastBuildDate>Wed, 29 Jul 2020 10:50:19 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 10:50:19 +0800</lastBuildDate>
     
 	<atom:link href="http://mrericstory.github.io/categories/geometry/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Euclid Book II PROP. XIII. -- THEROREM.</title>
+      <link>http://mrericstory.github.io/posts/euclidbookiiprop13/</link>
+      <pubDate>Thu, 03 Sep 2020 10:50:19 +0800</pubDate>
+      
+      <guid>http://mrericstory.github.io/posts/euclidbookiiprop13/</guid>
+      <description>&lt;p&gt;In any triangle (ABC), the square on any side subtending an acute angle (C) is less than the sum of the squares on the sides containing that angle, by twice the rectangle (BC, CD) contained by either of them (BC) and the intercept (CD) between the acute angle and the foot of the perpendicular on it from the opposite angle.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Euclid Book II PROP. XII. -- THEROREM.</title>
