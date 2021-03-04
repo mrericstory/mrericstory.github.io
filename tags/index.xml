@@ -2,112 +2,126 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mr. Eric</title>
-    <link>http://mrericstory.github.io/tags/</link>
+    <link>http://mreric.org/tags/</link>
     <description>Recent content in Tags on Mr. Eric</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>english</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
-    <lastBuildDate>Sun, 20 Dec 2020 19:12:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 Feb 2021 18:41:15 +0800</lastBuildDate><atom:link href="http://mreric.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algebra II</title>
+      <link>http://mreric.org/tags/algebra-ii/</link>
+      <pubDate>Fri, 26 Feb 2021 18:41:15 +0800</pubDate>
+      
+      <guid>http://mreric.org/tags/algebra-ii/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="http://mrericstory.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Written Assignment</title>
+      <link>http://mreric.org/tags/written-assignment/</link>
+      <pubDate>Fri, 26 Feb 2021 18:41:15 +0800</pubDate>
+      
+      <guid>http://mreric.org/tags/written-assignment/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Opinion</title>
-      <link>http://mrericstory.github.io/tags/opinion/</link>
+      <link>http://mreric.org/tags/opinion/</link>
       <pubDate>Sun, 20 Dec 2020 19:12:00 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/tags/opinion/</guid>
+      <guid>http://mreric.org/tags/opinion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>poetry appreciation</title>
-      <link>http://mrericstory.github.io/tags/poetry-appreciation/</link>
+      <link>http://mreric.org/tags/poetry-appreciation/</link>
       <pubDate>Sun, 20 Dec 2020 19:12:00 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/tags/poetry-appreciation/</guid>
+      <guid>http://mreric.org/tags/poetry-appreciation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Speech</title>
-      <link>http://mrericstory.github.io/tags/speech/</link>
+      <link>http://mreric.org/tags/speech/</link>
       <pubDate>Sun, 20 Dec 2020 19:12:00 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/tags/speech/</guid>
+      <guid>http://mreric.org/tags/speech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Germination</title>
-      <link>http://mrericstory.github.io/tags/germination/</link>
+      <link>http://mreric.org/tags/germination/</link>
       <pubDate>Sun, 22 Nov 2020 10:50:19 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/tags/germination/</guid>
+      <guid>http://mreric.org/tags/germination/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Seed</title>
-      <link>http://mrericstory.github.io/tags/seed/</link>
+      <link>http://mreric.org/tags/seed/</link>
       <pubDate>Sun, 22 Nov 2020 10:50:19 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/tags/seed/</guid>
+      <guid>http://mreric.org/tags/seed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>http://mrericstory.github.io/tags/code/</link>
+      <link>http://mreric.org/tags/code/</link>
       <pubDate>Sat, 03 Oct 2020 15:41:22 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/tags/code/</guid>
+      <guid>http://mreric.org/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CTY</title>
-      <link>http://mrericstory.github.io/tags/cty/</link>
+      <link>http://mreric.org/tags/cty/</link>
       <pubDate>Sat, 03 Oct 2020 15:41:22 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/tags/cty/</guid>
+      <guid>http://mreric.org/tags/cty/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Euclid</title>
-      <link>http://mrericstory.github.io/tags/euclid/</link>
+      <link>http://mreric.org/tags/euclid/</link>
       <pubDate>Thu, 03 Sep 2020 10:50:20 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/tags/euclid/</guid>
+      <guid>http://mreric.org/tags/euclid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geometry</title>
-      <link>http://mrericstory.github.io/tags/geometry/</link>
+      <link>http://mreric.org/tags/geometry/</link>
       <pubDate>Thu, 03 Sep 2020 10:50:20 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/tags/geometry/</guid>
+      <guid>http://mreric.org/tags/geometry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>method</title>
-      <link>http://mrericstory.github.io/tags/method/</link>
+      <link>http://mreric.org/tags/method/</link>
       <pubDate>Wed, 26 Aug 2020 14:51:51 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/tags/method/</guid>
+      <guid>http://mreric.org/tags/method/</guid>
       <description></description>
     </item>
     
     <item>
       <title>solve</title>
-      <link>http://mrericstory.github.io/tags/solve/</link>
+      <link>http://mreric.org/tags/solve/</link>
       <pubDate>Wed, 26 Aug 2020 14:51:51 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/tags/solve/</guid>
+      <guid>http://mreric.org/tags/solve/</guid>
       <description></description>
     </item>
     

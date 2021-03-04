@@ -2,22 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Mr. Eric</title>
-    <link>http://mrericstory.github.io/categories/python/</link>
+    <link>http://mreric.org/categories/python/</link>
     <description>Recent content in Python on Mr. Eric</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>english</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
-    <lastBuildDate>Sat, 03 Oct 2020 15:41:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://mrericstory.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 03 Oct 2020 15:41:22 +0800</lastBuildDate><atom:link href="http://mreric.org/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Alarm Clock</title>
-      <link>http://mrericstory.github.io/posts/pythonctymidterm/</link>
+      <link>http://mreric.org/posts/pythonctymidterm/</link>
       <pubDate>Sat, 03 Oct 2020 15:41:22 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/posts/pythonctymidterm/</guid>
+      <guid>http://mreric.org/posts/pythonctymidterm/</guid>
       <description>&lt;p&gt;Many personal computers, laptop computers, tablets, and smart phones have applications that allow a user to set reminder alarms. To accomplish this, all these applications use date and time functions that are built into the language they are programmed in.&lt;/p&gt;</description>
     </item>
     

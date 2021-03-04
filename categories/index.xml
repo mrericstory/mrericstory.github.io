@@ -2,58 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mr. Eric</title>
-    <link>http://mrericstory.github.io/categories/</link>
+    <link>http://mreric.org/categories/</link>
     <description>Recent content in Categories on Mr. Eric</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>english</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
-    <lastBuildDate>Sun, 20 Dec 2020 19:12:00 +0800</lastBuildDate>
-    
-	<atom:link href="http://mrericstory.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 26 Feb 2021 18:41:15 +0800</lastBuildDate><atom:link href="http://mreric.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algebra</title>
+      <link>http://mreric.org/categories/algebra/</link>
+      <pubDate>Fri, 26 Feb 2021 18:41:15 +0800</pubDate>
+      
+      <guid>http://mreric.org/categories/algebra/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Essay</title>
-      <link>http://mrericstory.github.io/categories/essay/</link>
+      <link>http://mreric.org/categories/essay/</link>
       <pubDate>Sun, 20 Dec 2020 19:12:00 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/categories/essay/</guid>
+      <guid>http://mreric.org/categories/essay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Science</title>
-      <link>http://mrericstory.github.io/categories/science/</link>
+      <link>http://mreric.org/categories/science/</link>
       <pubDate>Sun, 22 Nov 2020 10:50:19 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/categories/science/</guid>
+      <guid>http://mreric.org/categories/science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://mrericstory.github.io/categories/python/</link>
+      <link>http://mreric.org/categories/python/</link>
       <pubDate>Sat, 03 Oct 2020 15:41:22 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/categories/python/</guid>
+      <guid>http://mreric.org/categories/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geometry</title>
-      <link>http://mrericstory.github.io/categories/geometry/</link>
+      <link>http://mreric.org/categories/geometry/</link>
       <pubDate>Thu, 03 Sep 2020 10:50:20 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/categories/geometry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algebra</title>
-      <link>http://mrericstory.github.io/categories/algebra/</link>
-      <pubDate>Wed, 26 Aug 2020 14:51:51 +0800</pubDate>
-      
-      <guid>http://mrericstory.github.io/categories/algebra/</guid>
+      <guid>http://mreric.org/categories/geometry/</guid>
       <description></description>
     </item>
     

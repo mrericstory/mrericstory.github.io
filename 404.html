@@ -17,15 +17,15 @@
 
 
 
-<meta name="generator" content="Hugo 0.72.0" />
+<meta name="generator" content="Hugo 0.80.0" />
 
-<link rel="canonical" href="http://mrericstory.github.io/404.html" />
+<link rel="canonical" href="http://mreric.org/404.html" />
 
 
 <meta property="og:title" content="404 Page not found" />
 <meta property="og:description" content="Happy Everyday" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://mrericstory.github.io/404.html" />
+<meta property="og:url" content="http://mreric.org/404.html" />
 
 
 
@@ -93,7 +93,7 @@
     <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
   </div>
   <div class="item">
-    <i class="large link home icon" title="Home" onclick="window.location.href = 'http:\/\/mrericstory.github.io\/'"></i>
+    <i class="large link home icon" title="Home" onclick="window.location.href = 'http:\/\/mreric.org'"></i>
   </div>
   <div class="item">
     <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
@@ -218,7 +218,7 @@
 
 
             var disqus_config = function () {
-              this.page.url = 'http:\/\/mrericstory.github.io\/404.html';  
+              this.page.url = 'http:\/\/mreric.org\/404.html';  
               this.page.identifier = '/'; 
             };
 
@@ -277,6 +277,22 @@
 <script type="text/javascript" id="MathJax-script" defer
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
 
      
 
@@ -291,7 +307,7 @@
 </div>
 <script>
   $(document).ready(function () {
-    $.getJSON('http:\/\/mrericstory.github.io\//index.json', function (data) {
+    $.getJSON('http:\/\/mreric.org/index.json', function (data) {
       $('.ui.search').search({
         source: data,
         searchFields: ['title'],

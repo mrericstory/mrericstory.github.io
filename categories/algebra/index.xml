@@ -2,22 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebra on Mr. Eric</title>
-    <link>http://mrericstory.github.io/categories/algebra/</link>
+    <link>http://mreric.org/categories/algebra/</link>
     <description>Recent content in Algebra on Mr. Eric</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>english</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
-    <lastBuildDate>Wed, 26 Aug 2020 14:51:51 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 Feb 2021 18:41:15 +0800</lastBuildDate><atom:link href="http://mreric.org/categories/algebra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Written Assignment No.4</title>
+      <link>http://mreric.org/posts/algebraiiwa4/</link>
+      <pubDate>Fri, 26 Feb 2021 18:41:15 +0800</pubDate>
+      
+      <guid>http://mreric.org/posts/algebraiiwa4/</guid>
+      <description>&lt;p&gt;Complete each problem below by hand. Show your work and provide a reason for each step. Calculators are not allowed on this assignment.&lt;/p&gt;</description>
+    </item>
     
-	<atom:link href="http://mrericstory.github.io/categories/algebra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Written Assignment No.3</title>
+      <link>http://mreric.org/posts/algebraiiwa3/</link>
+      <pubDate>Wed, 17 Feb 2021 18:41:15 +0800</pubDate>
+      
+      <guid>http://mreric.org/posts/algebraiiwa3/</guid>
+      <description>&lt;p&gt;Complete each problem below by hand. Show your work and provide a reason for each step. Calculators are not allowed on this assignment.&lt;/p&gt;</description>
+    </item>
     
+    <item>
+      <title>Written Assignment No.2</title>
+      <link>http://mreric.org/posts/algebraiiwa2/</link>
+      <pubDate>Fri, 12 Feb 2021 18:41:15 +0800</pubDate>
+      
+      <guid>http://mreric.org/posts/algebraiiwa2/</guid>
+      <description>&lt;p&gt;Complete each problem below by hand. Show your work and provide a reason for each step. Calculators are not allowed on this assignment.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Written Assignment No.1</title>
+      <link>http://mreric.org/posts/algebraiiwa1/</link>
+      <pubDate>Thu, 04 Feb 2021 18:41:15 +0800</pubDate>
+      
+      <guid>http://mreric.org/posts/algebraiiwa1/</guid>
+      <description>&lt;p&gt;Complete each problem below by hand. Show your work and provide a reason for each step. Calculators are not allowed on this assignment.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Free Question No.1</title>
-      <link>http://mrericstory.github.io/posts/algebratry/</link>
+      <link>http://mreric.org/posts/algebratry/</link>
       <pubDate>Wed, 26 Aug 2020 14:51:51 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/posts/algebratry/</guid>
+      <guid>http://mreric.org/posts/algebratry/</guid>
       <description>&lt;p&gt;a. Assume that the length and width of a rectangle can be only whole numbers. How many rectangles of different dimensions have a perimeter of 12? 14? 16? 18? 24? (Orientation of the rectangle does not matter; that is, a 2x3 is the same rectangle as a 3x2.)&lt;/p&gt;</description>
     </item>
     

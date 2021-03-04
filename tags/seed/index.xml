@@ -2,22 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Seed on Mr. Eric</title>
-    <link>http://mrericstory.github.io/tags/seed/</link>
+    <link>http://mreric.org/tags/seed/</link>
     <description>Recent content in Seed on Mr. Eric</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>english</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
-    <lastBuildDate>Sun, 22 Nov 2020 10:50:19 +0800</lastBuildDate>
-    
-	<atom:link href="http://mrericstory.github.io/tags/seed/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 22 Nov 2020 10:50:19 +0800</lastBuildDate><atom:link href="http://mreric.org/tags/seed/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Seed Germination</title>
-      <link>http://mrericstory.github.io/posts/sciencebeangermination/</link>
+      <link>http://mreric.org/posts/sciencebeangermination/</link>
       <pubDate>Sun, 22 Nov 2020 10:50:19 +0800</pubDate>
       
-      <guid>http://mrericstory.github.io/posts/sciencebeangermination/</guid>
+      <guid>http://mreric.org/posts/sciencebeangermination/</guid>
       <description>&lt;p&gt;There are plants all around us. Such as trees, grass, beans… There are so many of them. But have you ever think of any questions when you plant a plant? There are many questions, waiting for YOU to ask and discover the answer.&lt;/p&gt;</description>
     </item>
     
