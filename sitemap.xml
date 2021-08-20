@@ -3,32 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://mreric.org/tags/algorithm/</loc>
+    <lastmod>2021-08-20T21:48:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/categories/algorithm/</loc>
+    <lastmod>2021-08-20T21:48:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/posts/algorithmchapter1/</loc>
+    <lastmod>2021-08-20T21:48:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/categories/</loc>
+    <lastmod>2021-08-20T21:48:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/</loc>
+    <lastmod>2021-08-20T21:48:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/posts/</loc>
+    <lastmod>2021-08-20T21:48:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/tags/stop-motion/</loc>
+    <lastmod>2021-08-20T21:48:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/tags/</loc>
+    <lastmod>2021-08-20T21:48:28+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mreric.org/categories/algebra/</loc>
     <lastmod>2021-08-16T12:22:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://mreric.org/tags/algebra-ii/</loc>
-    <lastmod>2021-08-16T12:22:08+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mreric.org/categories/</loc>
-    <lastmod>2021-08-16T12:22:08+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mreric.org/</loc>
-    <lastmod>2021-08-16T12:22:08+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mreric.org/posts/</loc>
-    <lastmod>2021-08-16T12:22:08+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mreric.org/tags/</loc>
     <lastmod>2021-08-16T12:22:08+08:00</lastmod>
   </url>
   
