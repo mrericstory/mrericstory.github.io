@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Algorithms Chapter 2 | Mr. Eric</title>
+
+    
+<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+
+
+<meta name="author" content="Mr. Eric" />
+<meta name="description" content="This time the video is about selection sort. I&amp;rsquo;m fine with arrays and linked lists so far(I think I&amp;rsquo;m goin to use it in the future) and with selection sort, too, just bubble sort and selection sort are so similar. By the way, I need to say that I&amp;rsquo;m enjoying this book really much and until now, it has been my favorite book about anything that has to do with knowledge. It seems like I get to know more things from nowhere while reading a comic book. The pictures are nice!
+" />
+
+
+
+<meta name="generator" content="Hugo 0.80.0" />
+
+<link rel="canonical" href="http://mreric.org/posts/algorithmchapter2/" />
+
+
+<meta property="og:title" content="Algorithms Chapter 2" />
+<meta property="og:description" content="This time the video is about selection sort. I&rsquo;m fine with arrays and linked lists so far(I think I&rsquo;m goin to use it in the future) and with selection sort, too, just bubble sort and selection sort are so similar. By the way, I need to say that I&rsquo;m enjoying this book really much and until now, it has been my favorite book about anything that has to do with knowledge. It seems like I get to know more things from nowhere while reading a comic book. The pictures are nice!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://mreric.org/posts/algorithmchapter2/" />
+<meta property="article:published_time" content="2021-08-24T21:21:39+08:00" />
+<meta property="article:modified_time" content="2021-08-20T21:21:58+08:00" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Algorithms Chapter 2"/>
+<meta name="twitter:description" content="This time the video is about selection sort. I&rsquo;m fine with arrays and linked lists so far(I think I&rsquo;m goin to use it in the future) and with selection sort, too, just bubble sort and selection sort are so similar. By the way, I need to say that I&rsquo;m enjoying this book really much and until now, it has been my favorite book about anything that has to do with knowledge. It seems like I get to know more things from nowhere while reading a comic book. The pictures are nice!"/>
+
+
+<link rel="stylesheet" href="/css/semantic.min.css" />
+<link rel="stylesheet" href="/css/icomoon.css" />
+<link rel="stylesheet" href="/css/OverlayScrollbars.min.css" />
+<link rel="stylesheet" href="/css/github-markdown.css" />
+<link rel="stylesheet" href="/css/site.css" />
+
+<style>
+  a:hover {
+    text-decoration: underline; 
+  }
+
+  
+  a {
+    color: seagreen !important;
+  }
+  
+
+  
+  .inverted a,
+  .inverted a:hover {
+     color: darkseagreen !important;
+  }
+  
+
+  
+  body.default {
+    
+    background-color: #ccc;
+    
+
+    
+    background-image: url(/img/backGround.jpg);
+    
+  }
+  
+
+  
+  body.dark {
+    
+    background-color: black;
+    
+
+    
+  }
+  
+</style>
+
+    
+
+
+  
+    <link rel="stylesheet" data-highlight href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/gruvbox-light.min.css" />
+  
+
+
+
+
+
+  </head>
+
+  <body class="default">
+    
+<nav class="ui secondary menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = 'http:\/\/mreric.org'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+  
+  <div class="item">
+    <i class="large link search icon" onclick="toggleSearch()"></i>
+  </div>
+  
+</nav>
+
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          <div class="dream-max-width">
+            
+<div class="ui centered relaxed grid dream-grid">
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single" id="dream-save-post-as-img">
+    
+    <section class="ui top attached segment cover">
+      <div class="cover-img" style="background-image: url(/img/Algorithm2.jpg);"></div>
+    </section>
+    
+    <section class="ui attached segment">
+      <header>
+        <h1 class="ui large header">
+          Algorithms Chapter 2                  
+          <div class="sub header">
+            
+            @
+            
+              
+                <a href="http://mreric.org" target="_blank">Mr. Eric</a>
+              
+            
+
+            | 
+                Tuesday, Aug 24, 2021
+              
+
+            | 1 minute read
+
+            | Update at
+              
+                Friday, Aug 20, 2021
+              
+          </div>
+        </h1>
+      </header>
+
+      <article class="main"><p>This time the video is about selection sort. I&rsquo;m fine with arrays and linked lists so far(I think I&rsquo;m goin to use it in the future) and with selection sort, too, just bubble sort and selection sort are so similar. By the way, I need to say that I&rsquo;m enjoying this book really much and until now, it has been my favorite book about anything that has to do with knowledge. It seems like I get to know more things from nowhere while reading a comic book. The pictures are nice!</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/bB9AaASc53c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>Algorithms are fun, too, but philosophy is also fun with &ldquo;An outline of philosophy&rdquo; by Russell! I have a new &ldquo;Brilliant idea&rdquo; to make a much cooler siries of video&hellip; About philosophy! I&rsquo;ll like to share what I had read with other people, and trust me&hellip; This book isn&rsquo;t a comic book, but just as much fun! Russell has been satirizing people, not using one rude word. And the chapters all have meaningful titles that will &ldquo;grab&rdquo; you right into it!</p></article>
+    </section>
+
+    <footer class="ui attached segment dream-tags" data-html2canvas-ignore>
+      
+        
+          <a class="ui label" href="/tags/algorithm" title="Algorithm">Algorithm</a>
+        
+          <a class="ui label" href="/tags/stop-motion" title="Stop Motion">Stop Motion</a>
+        
+      
+      <div
+        class="ui label"
+        style="float: right; cursor: pointer;"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i>Save as image
+      </div>
+    </footer>
+
+    
+      <footer class="ui attached segment" data-html2canvas-ignore>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons license" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under the<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </a>License Agreement.
+      </footer>
+    
+
+    
+      <footer class="ui bottom attached stacked segment post-disqus-area" data-html2canvas-ignore>
+        <div id="disqus_thread"></div>
+        <script>
+          
+
+
+          var disqus_config = function () {
+            this.page.url = 'http:\/\/mreric.org\/posts\/algorithmchapter2\/';  
+            this.page.identifier = '\/posts\/algorithmchapter2\/'; 
+          };
+
+          (function() { 
+            var d = document, s = d.createElement('script');
+            s.src = 'https://' + 'mreric' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </footer>
+    
+    
+    
+
+    
+
+  </div>
+  <div class="sixteen wide mobile sixteen wide tablet four wide computer column">
+    <article class="dream-header">
+  <section class="ui top attached center aligned segment">
+    <div class="ui small circular image">
+      
+        <img src="/img/avatarSmall.JPG">
+      
+    </div>
+
+    
+    <div class="ui medium header">
+    
+      Mr. Eric
+      <div class="sub header" style="margin-top: 0.5rem;">Life writes the best stories.</div>
+    
+    </div>
+    
+
+    <div class="ui horizontal list">
+      
+      <a class="item" href="/posts">
+        <i class="archive icon" title="Archives"></i>
+      </a>
+      
+      <a class="item" href="/tags">
+        <i class="tags icon" title="All Tags"></i>
+      </a>
+      <a class="item" href="/categories">
+        <i class="th list icon" title="All Categories"></i>
+      </a>
+    </div>
+  </section>
+
+  
+  <section class="ui attached center aligned segment dream-tags">
+    
+      
+      
+      <a class="ui label" href="/tags/algebra-ii/" title="Algebra Ii">
+        Algebra Ii
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/algorithm/" title="Algorithm">
+        Algorithm
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/code/" title="Code">
+        Code
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/cty/" title="Cty">
+        Cty
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/euclid/" title="Euclid">
+        Euclid
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/geometry/" title="Geometry">
+        Geometry
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/germination/" title="Germination">
+        Germination
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/method/" title="Method">
+        Method
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/opinion/" title="Opinion">
+        Opinion
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/poetry-appreciation/" title="Poetry Appreciation">
+        Poetry Appreciation
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/seed/" title="Seed">
+        Seed
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/solve/" title="Solve">
+        Solve
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/speech/" title="Speech">
+        Speech
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/stop-motion/" title="Stop Motion">
+        Stop Motion
+      </a>
+    
+      
+      
+      <a class="ui label" href="/tags/written-assignment/" title="Written Assignment">
+        Written Assignment
+      </a>
+    
+  </section>
+  
+
+  
+  <section class="ui attached segment dream-categories">
+    <div class="ui accordion">
+      
+      
+      
+      
+      
+
+      
+        
+
+        
+          <div class="title">
+            <i class="dropdown icon"></i>
+            
+            
+            <a class="item" href="/categories/algebra/" title="Algebra">
+              Algebra
+            </a>
+          </div>
+          <div class="content">
+            <div class="ui list">
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/algebraiiwa8/">Written Assignment No.8</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/algebraiiwa7/">Written Assignment No.7</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/algebraiiwa6/">Written Assignment No.6</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/algebraiiwa5/">Written Assignment No.5</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/algebraiiwa4/">Written Assignment No.4</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/algebraiiwa3/">Written Assignment No.3</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/algebraiiwa2/">Written Assignment No.2</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/algebraiiwa1/">Written Assignment No.1</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/algebratry/">Free Question No.1</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        
+      
+        
+
+        
+          <div class="title">
+            <i class="dropdown icon"></i>
+            
+            
+            <a class="item" href="/categories/algorithm/" title="Algorithm">
+              Algorithm
+            </a>
+          </div>
+          <div class="content">
+            <div class="ui list">
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/algorithmchapter2/">Algorithms Chapter 2</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/algorithmchapter1/">Algorithms Chapter 1</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        
+      
+        
+
+        
+          <div class="title">
+            <i class="dropdown icon"></i>
+            
+            
+            <a class="item" href="/categories/essay/" title="Essay">
+              Essay
+            </a>
+          </div>
+          <div class="content">
+            <div class="ui list">
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/essaytesla/">Biography about Nikola Tesla (G4)</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/ohtheplacesyoullgo/">Oh the places you&#39;ll go!</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/essaywaystoexpressyourself/">Ways To Express Yourself (G4)</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/essayvolunteerornot/">Volunteer or not (G4)</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/essayshouldwereachingout/">Should We Reach Out (G4)</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        
+      
+        
+
+        
+          <div class="title">
+            <i class="dropdown icon"></i>
+            
+            
+            <a class="item" href="/categories/geometry/" title="Geometry">
+              Geometry
+            </a>
+          </div>
+          <div class="content">
+            <div class="ui list">
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop13/">Euclid Book II PROP. XIII. -- THEROREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop12/">Euclid Book II PROP. XII. -- THEROREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop11/">Euclid Book II PROP. XI. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop10/">Euclid Book II PROP. X. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop9/">Euclid Book II PROP. IX. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop8/">Euclid Book II PROP. VIII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop7/">Euclid Book II PROP. VII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop6/">Euclid Book II PROP. VI. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop5/">Euclid Book II PROP. V. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop4/">Euclid Book II PROP. IV. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop3/">Euclid Book II PROP. III. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop2/">Euclid Book II PROP. II. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiiprop1/">Euclid Book II PROP. I. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop48/">Euclid Book I PROP. XLVIII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop47/">Euclid Book I PROP. XLVII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop46/">Euclid Book I PROP. XLVI. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop45/">Euclid Book I PROP. XLV. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop44/">Euclid Book I PROP. XLIV. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop43/">Euclid Book I PROP. XLIII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop42/">Euclid Book I PROP. XLII. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop41/">Euclid Book I PROP. XLI. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop40/">Euclid Book I PROP. XL. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop39/">Euclid Book I PROP. XXXIX. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop38/">Euclid Book I PROP. XXXVIII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop37/">Euclid Book I PROP. XXXVII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop36/">Euclid Book I PROP. XXXVI. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop35/">Euclid Book I PROP. XXXV. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop34/">Euclid Book I PROP. XXXIV. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop33/">Euclid Book I PROP. XXXIII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop32/">Euclid Book I PROP. XXXII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop31/">Euclid Book I PROP. XXXI. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop30/">Euclid Book I PROP. XXX. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop29/">Euclid Book I PROP. XXIX. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop28/">Euclid Book I PROP. XXVIII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop27/">Euclid Book I PROP. XXVII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop26/">Euclid Book I PROP. XXVI. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop25/">Euclid Book I PROP. XXV. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop24/">Euclid Book I PROP. XXIV. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop23/">Euclid Book I PROP. XXIII. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop22/">Euclid Book I PROP. XXII. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop21/">Euclid Book I PROP. XXI. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop20/">Euclid Book I PROP. XX. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop19/">Euclid Book I PROP. XIX. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop18/">Euclid Book I PROP. XVIII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop17/">Euclid Book I PROP. XVII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop16/">Euclid Book I PROP. XVI. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop15/">Euclid Book I PROP. XV. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop14/">Euclid Book I PROP. XIV. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop13/">Euclid Book I PROP. XIII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop12/">Euclid Book I PROP. XII. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop11/">Euclid Book I PROP. XI. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop10/">Euclid Book I PROP. X. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop9/">Euclid Book I PROP. IX. -- PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop8/">Euclid Book I PROP. VIII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop7/">Euclid Book I PROP. VII. -- THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop6/">Euclid Book I PROP. VI. – THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop5/">Euclid Book I PROP. V. – THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop4/">Euclid Book I PROP. IV. – THEOREM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop3/">Euclid Book I PROP. III. – PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop2/">Euclid Book I PROP. II. – PROBLEM.</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/euclidbookiprop1/">Euclid Book I PROP. I. – PROBLEM.</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        
+      
+        
+
+        
+          <div class="title">
+            <i class="dropdown icon"></i>
+            
+            
+            <a class="item" href="/categories/python/" title="Python">
+              Python
+            </a>
+          </div>
+          <div class="content">
+            <div class="ui list">
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/pythonctymidterm/">An Alarm Clock</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        
+      
+        
+
+        
+          <div class="title">
+            <i class="dropdown icon"></i>
+            
+            
+            <a class="item" href="/categories/science/" title="Science">
+              Science
+            </a>
+          </div>
+          <div class="content">
+            <div class="ui list">
+            
+              <div class="item">
+                <div class="content">
+                  <a class="item" href="/posts/sciencebeangermination/">Seed Germination</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        
+      
+
+      
+    </div>
+  </section>
+  
+
+  <section class="ui attached segment header-socials">
+    <nav class="ui secondary menu dream-menu dream-socials">
+  
+  
+    <div class="item">
+      <a href="mailto:mrericstory@gmail.com">
+        <i class=" mail icon" title="Email"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://twitter.com/MrEricStory" target="_blank">
+        <i class=" twitter icon" title="Twitter"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://facebook.com/mrericstory" target="_blank">
+        <i class=" facebook icon" title="Facebook"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class="item">
+      <a href="https://github.com/mrericstory" target="_blank">
+        <i class=" github icon" title="GitHub"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+</nav>
+
+  </section>
+
+  <section class="ui bottom attached center aligned segment">
+    
+      <p>© 2020 - 2021 Mr. Eric</p>
+    
+
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+
+    
+  </section>
+</article>
+
+  </div>
+</div>
+
+          </div>
+        </section>
+        <section class="back">
+          <div class="dream-max-width">
+            <div class="ui centered relaxed grid dream-grid dream-back">
+  
+  
+  
+    <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+      <article>
+        <div class="ui top attached segment">
+          <h3 class="ui header">Mr. Eric</h3>
+        </div>
+        <div class="ui bottom attached segment markdown-body">
+          <p>I am a student, learn, happy.</p>
+<p>Always happy.</p>
+        </div>
+      </article>
+    </section>
+  
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article>
+      <div class="ui top attached segment">
+        <h3 class="ui header">Social Links</h3>
+      </div>
+      <div class="ui bottom attached segment">
+        <nav class="ui secondary menu dream-menu dream-socials">
+  
+  
+    <div class="item">
+      <a href="mailto:mrericstory@gmail.com">
+        <i class="large mail icon" title="Email"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://twitter.com/MrEricStory" target="_blank">
+        <i class="large twitter icon" title="Twitter"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://facebook.com/mrericstory" target="_blank">
+        <i class="large facebook icon" title="Facebook"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class="item">
+      <a href="https://github.com/mrericstory" target="_blank">
+        <i class="large github icon" title="GitHub"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+</nav>
+
+      </div>
+    </article>
+  </section>
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+      <footer class="ui segment">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons license" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under the<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </a>License Agreement.
+      </footer>
+    
+  </section>
+
+  
+  
+</div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script>
+  window.backgroundDark = "black"
+  window.backgroundImageDark =  null 
+  window.darkNav =  true 
+  window.hasTwitterEmbed =  null 
+
+  if (window.hasTwitterEmbed) {
+    
+    window.twttr = (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {}
+      if (d.getElementById(id)) return t
+      js = d.createElement(s)
+      js.id = id
+      js.src = 'https://platform.twitter.com/widgets.js'
+      fjs.parentNode.insertBefore(js, fjs)
+
+      t._e = []
+      t.ready = function (f) {
+        t._e.push(f)
+      }
+
+      return t
+    })(document, 'script', 'twitter-wjs')
+  }
+</script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/semantic.min.js"></script>
+<script src="/js/jquery.overlayScrollbars.min.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+<script type="text/javascript" id="MathJax-script" defer
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+    
+<script src="/js/html2canvas.min.js"></script>
+<script src="/js/post.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script>
+
+  
+    
+      <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/ocaml.min.js"></script>
+     
+  
+
+  <script>
+  hljs.initHighlightingOnLoad()
+  setHighlightTheme()
+
+  function setHighlightTheme() {
+    var isDark = localStore.getItem('hugo-theme-dream-is-dark')
+    var lightTheme = "gruvbox-light"
+    var darkTheme = "gruvbox-dark"
+    var theme = isDark ? darkTheme : lightTheme
+
+    $('link[data-highlight]').attr('href', 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/' + theme + '.min.css')
+    $('pre').css('background', isDark ? '#333' : '')
+  }
+</script>
+
+
+
+
+
+    
+      <div class="ui inverted segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="Search" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('http:\/\/mreric.org/index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: true,
+      })
+    })
+  })
+</script>
+<script src="/js/search.js"></script>
+
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-169619743-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+  </body>
+</html>
