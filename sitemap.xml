@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://mreric.org/categories/</loc>
+    <lastmod>2021-11-23T00:10:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/categories/essay/</loc>
+    <lastmod>2021-11-23T00:10:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/</loc>
+    <lastmod>2021-11-23T00:10:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/tags/opinion/</loc>
+    <lastmod>2021-11-23T00:10:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/posts/</loc>
+    <lastmod>2021-11-23T00:10:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/tags/reflection/</loc>
+    <lastmod>2021-11-23T00:10:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/tags/</loc>
+    <lastmod>2021-11-23T00:10:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mreric.org/posts/essayalongwalktowater/</loc>
+    <lastmod>2021-11-23T00:10:19+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mreric.org/tags/algorithm/</loc>
     <lastmod>2021-08-20T21:48:28+08:00</lastmod>
   </url>
@@ -18,28 +58,8 @@
   </url>
   
   <url>
-    <loc>http://mreric.org/categories/</loc>
-    <lastmod>2021-08-21T22:09:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mreric.org/</loc>
-    <lastmod>2021-08-21T22:09:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mreric.org/posts/</loc>
-    <lastmod>2021-08-21T22:09:58+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mreric.org/tags/stop-motion/</loc>
     <lastmod>2021-08-20T21:48:28+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mreric.org/tags/</loc>
-    <lastmod>2021-08-21T22:09:58+08:00</lastmod>
   </url>
   
   <url>
@@ -85,16 +105,6 @@
   <url>
     <loc>http://mreric.org/posts/essaytesla/</loc>
     <lastmod>2020-06-18T13:32:19+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mreric.org/categories/essay/</loc>
-    <lastmod>2020-12-20T19:12:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mreric.org/tags/opinion/</loc>
-    <lastmod>2020-12-20T19:12:00+08:00</lastmod>
   </url>
   
   <url>
