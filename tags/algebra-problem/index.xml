@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Algebra on Mr. Eric</title>
-    <link>http://mreric.org/categories/algebra/</link>
-    <description>Recent content in Algebra on Mr. Eric</description>
+    <title>Algebra Problem on Mr. Eric</title>
+    <link>http://mreric.org/tags/algebra-problem/</link>
+    <description>Recent content in Algebra Problem on Mr. Eric</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>english</language>
     <copyright>Welcome to study, discuss, even debate together. &lt;br /&gt;No plagiarism please, because simply copying, even only one word, even only one minute, will waste time in our life. While copying, you use other’s opinions, but yourself don’t have one. &lt;br /&gt;&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons license&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under the&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) &lt;/a&gt;License Agreement.</copyright>
-    <lastBuildDate>Sat, 21 Aug 2021 22:09:21 +0800</lastBuildDate><atom:link href="http://mreric.org/categories/algebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Aug 2021 22:09:21 +0800</lastBuildDate><atom:link href="http://mreric.org/tags/algebra-problem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algebra Problem No.8</title>
       <link>http://mreric.org/posts/algebraiiwa8/</link>
@@ -78,15 +78,6 @@
       
       <guid>http://mreric.org/posts/algebraiiwa1/</guid>
       <description>&lt;p&gt;Complete each problem below by hand. Show your work and provide a reason for each step. Calculators are not allowed on this assignment.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Free Question No.1</title>
-      <link>http://mreric.org/posts/algebratry/</link>
-      <pubDate>Wed, 26 Aug 2020 14:51:51 +0800</pubDate>
-      
-      <guid>http://mreric.org/posts/algebratry/</guid>
-      <description>&lt;p&gt;a. Assume that the length and width of a rectangle can be only whole numbers. How many rectangles of different dimensions have a perimeter of 12? 14? 16? 18? 24? (Orientation of the rectangle does not matter; that is, a 2x3 is the same rectangle as a 3x2.)&lt;/p&gt;</description>
     </item>
     
   </channel>
