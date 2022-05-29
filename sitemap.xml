@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mreric.org/tags/algorithm/</loc>
+    <lastmod>2022-05-29T21:38:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mreric.org/categories/algorithm/</loc>
+    <lastmod>2022-05-29T21:38:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mreric.org/posts/algorithmcode1/</loc>
+    <lastmod>2022-05-29T21:38:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mreric.org/categories/</loc>
+    <lastmod>2022-05-29T21:38:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mreric.org/tags/code/</loc>
+    <lastmod>2022-05-29T21:38:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mreric.org/categories/code/</loc>
+    <lastmod>2022-05-29T21:38:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mreric.org/</loc>
+    <lastmod>2022-05-29T21:38:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mreric.org/posts/</loc>
+    <lastmod>2022-05-29T21:38:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mreric.org/tags/</loc>
+    <lastmod>2022-05-29T21:38:36+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mreric.org/categories/algebra/</loc>
     <lastmod>2022-03-22T23:29:58+08:00</lastmod>
   </url>
@@ -19,26 +64,6 @@
   
   <url>
     <loc>https://mreric.org/posts/algebraiiwa11/</loc>
-    <lastmod>2022-03-22T23:29:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mreric.org/categories/</loc>
-    <lastmod>2022-03-22T23:29:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mreric.org/</loc>
-    <lastmod>2022-03-22T23:29:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mreric.org/posts/</loc>
-    <lastmod>2022-03-22T23:29:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mreric.org/tags/</loc>
     <lastmod>2022-03-22T23:29:58+08:00</lastmod>
   </url>
   
@@ -65,16 +90,6 @@
   <url>
     <loc>https://mreric.org/posts/essayalongwalktowater/</loc>
     <lastmod>2021-11-23T00:10:19+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mreric.org/tags/algorithm/</loc>
-    <lastmod>2021-08-20T21:48:28+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mreric.org/categories/algorithm/</loc>
-    <lastmod>2021-08-20T21:48:28+08:00</lastmod>
   </url>
   
   <url>
@@ -184,11 +199,6 @@
   
   <url>
     <loc>https://mreric.org/posts/pythonctymidterm/</loc>
-    <lastmod>2020-10-03T15:41:22+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mreric.org/tags/code/</loc>
     <lastmod>2020-10-03T15:41:22+08:00</lastmod>
   </url>
   
